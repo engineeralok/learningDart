@@ -19,7 +19,7 @@ void main() {
   // print(username);
   // print(username.runtimeType);
 
-  // Operators
+  // #Operators
   // * Arithmatic operators -> -, +, *, / -- which helps us in mathematics solutions.
   // var a = 100;
   // var b = 150;
@@ -38,7 +38,7 @@ void main() {
   // print(++i);
   // print(i);
 
-  //Decriment Postfix
+  // *Decriment Postfix
   // var j = 2;
   // print(j);
   // print(j--);
@@ -84,13 +84,50 @@ void main() {
   // a += 10; // a = a + 10
   // print(a);
 
-  // Conditional expression
+  // #Conditional expression
   // condition ? exprerssion 1 : expression 2
   // var b = 2;
   // var c = 4;
   // var a = 6;
   // (a == b+c) ? print("b+c is equal to a") : print("b+c is not equal to a");
 
-  
-  
+  // var name = null;
+
+  // var user = name ??
+  //     'guest'; //if name will be null the guest will assign to user variable.
+  // print(user);
+
+  // #String
+
+//   var s1 =
+//       "It's is a string"; //we can use signle quote under double quoted string and vice versa
+//   var s2 = "It\'s is a String" //use \ to show a single or double quote.
+//   print(s1);
+//   print(s1.runtimeType);
+
+//   //use three signle or double quote for multiline string
+
+//   String mlstr = """ This is a
+//  Multiline
+//  String""";
+
+//   print(mlstr);
+//   print(mlstr.runtimeType);
+
+// *Expression inside string quotes
+
+  var name = "Alok";
+  // print("$name");
+  // print('$name');
+  // print('${name}');
+  // print("My name is ${name.toUpperCase()}");
+
+  String city = "Delhi";
+  // print("Hello My name is $name and I live in $city.");
+
+  // *String Concatenation
+  print("My name is" + " " + "Alok");
+
+  var h = "Hello";
+  print(h + " " + name);
 }
