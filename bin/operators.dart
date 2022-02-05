@@ -1,5 +1,5 @@
-void main(){
-   // #Operators
+void main() {
+  // #Operators
   // * Arithmatic operators -> -, +, *, / -- which helps us in mathematics solutions.
   // var a = 100;
   // var b = 150;
@@ -69,7 +69,7 @@ void main(){
   var b = 2;
   var c = 4;
   var a = 6;
-  (a == b+c) ? print("b+c is equal to a") : print("b+c is not equal to a");
+  (a == b + c) ? print("b+c is equal to a") : print("b+c is not equal to a");
 
   // var name = null;
 

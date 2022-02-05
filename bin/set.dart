@@ -51,7 +51,7 @@ void main() {
   print(p.runtimeType);
 
   //*Duplicate value is not considered
-  var x = {1, 2, 2, 1, 2, 3, 4, 3, 3, 5};
-  print(x);
-  print(x.runtimeType);
+  // var x = {1, 2, 2, 1, 2, 3, 4, 3, 3, 5};
+  // print(x);
+  // print(x.runtimeType);
 }
